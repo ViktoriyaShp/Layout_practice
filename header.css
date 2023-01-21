@@ -17,6 +17,7 @@
 
 .btn {
   display: flex;
+  gap: 14px;
 }
 
 .btn-item {
@@ -47,7 +48,7 @@
 
 .service-title {
   text-align: center;
-  font-family: 'Roboto'sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -60,7 +61,6 @@
   padding: 30px;
   flex-wrap: wrap;
   row-gap: 10px;
-  column-gap: 10px;
 }
 
 .block {
