@@ -1,0 +1,15 @@
+@media (max-width:1600px) {
+    header {
+        width: 90%;;
+    }
+}
+
+@media (max-width:1100px) {
+    .container {
+        justify-content: space-between;
+    }
+.container > nav {
+    display: none;
+}
+}
+

@@ -1,0 +1,168 @@
+.main {
+    background: url("./images/fon.svg") no-repeat;
+    padding: 70px 0;
+    width: 100vw;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    flex-wrap: nowrap;
+}
+
+.left {
+    padding-right: 52px;
+}
+
+.main__title {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 36px;
+    color: #FFFFFF;
+}
+
+.main__title_orange {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #EF7F04;
+}
+
+.main__advantages {
+    display: flex;
+    gap: 0 35px;
+}
+
+.main__advantages-item {
+    width: 170px;
+}
+
+.item__description {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color:#FFFFFF;
+}
+
+.form-wrapper {
+    position: relative;
+    width: 406px;
+    height: 426px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.form-wrapper:before {
+    content: url("./images/ruler.svg");
+    position: absolute;
+    bottom: -60px;
+    left: -90px;
+}
+
+.form-wrapper__title {
+    display: flex;
+    justify-content: center;
+    padding: 43px 0 27px 0;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F51;
+}
+
+input {
+    display:block;
+    margin:0 auto;
+    width: 322px;
+    height: 40px;
+    background: #E2E2E2;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 15px;    
+}
+
+input::placeholder {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #424268;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked) {
+    display: none;
+    font-size: 12px;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:not(:checked) + label {
+    position: relative;
+    top: 0;
+    left: 74px;
+    font-size: 14px;
+    width: 300px;
+}
+
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before {
+    content: "";
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #E2E2E2;
+    position: absolute;
+    top: 0;
+    left: -35px;
+}
+
+input[type="checkbox"]:checked + label:after {
+    content: url("./images/Vector.svg");
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
+input[type="checkbox"]:not(:checked) + label:after {
+    content: "";
+}
+
+.form__submit {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 19px 40px 19px 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #EF7F1A;
+}
+
