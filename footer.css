@@ -1,13 +1,14 @@
 .footer {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     background: #2F2F51;
     margin: 0 auto;
     height: 146px;
     align-items: center;
+    justify-content: space-between;
 }
 
-.footer-container {
+.footer-contant {
     display: flex;
     justify-content: space-between;
     width: 1200px;

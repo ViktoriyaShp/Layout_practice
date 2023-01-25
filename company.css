@@ -2,7 +2,7 @@ body {
     background-color: #F2F2F2;
 }
 
-.container {
+.container-card {
     display: flex;
     padding: 30px;
     flex-wrap: wrap;

@@ -8,8 +8,8 @@
     .container {
         justify-content: space-between;
     }
-.container > nav {
-    display: none;
+    .container > nav {
+        display: none;
 }
 }
 
@@ -37,4 +37,17 @@
     .foto{
         display: none;
     }
+}
+
+@media  (max-width: 998px) {
+    .footer {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 980) {
+    .about-company__card {
+        width: 700px;
+    }    
 }
