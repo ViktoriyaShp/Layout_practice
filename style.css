@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.fixed::after {
+    content: '';
+    position: absolute;
+    width: 638px;
+    height: auto;
+    content: 'РАЗРАБОТЧИК';
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 110px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 0px;
+    top: 969px;
+    background: #121212;
+}
+
+.rubbery {
+    background: url(./images/fon.svg) no-repeat;
+    padding: 0 0 0 70px;
+}
+
+.name > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    padding: 60px 0 20px 0;
+    color: #121212;
+}
+
+.name > p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #121212;
+}
+
+.networks {
+    display: flex;
+    padding: 50px 0 50px 0;
+    gap: 30px;
+}
+
+.networks:hover img {
+    transform: scale(1.1);
+}
+
+.technologies > p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #121212;
+    padding: 0 0 20px ;
+}
+
+.technologies-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.technologies-block__button {
+    width: 198px;
+    height: 66px;
+    background: #414141;
+    border-radius: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.about-me {
+    padding: 0 0 50px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-indent: 30px;
+    color: #121212;
+}
+
+.about-me__headline {
+    padding: 50px 0 20px 0 ;
+}
+
+.feedback__fieldset {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 0 25px;
+}
+
+input {
+    margin-right: 25px;
+    width: 329px;
+    height: 62px;
+    background: #FFFFFF;
+    border-radius: 11px;
+}
+
+input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #121212;
+    padding: 0 0 0 16px;
+}
+
+.feedback__button {
+    width: 702px;
+    height: 66px;
+    background: #121212;
+    border-radius: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.feedback__button:hover {
+    background: #414141;
+}
+
+.feedback__button:active {
+    background: #1E1E1E;
+}
