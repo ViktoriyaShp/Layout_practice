@@ -1,19 +1,11 @@
-.container {
-    display: flex;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
 .fixed::after {
     content: '';
     position: absolute;
     width: 638px;
     height: auto;
     content: 'РАЗРАБОТЧИК';
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 4em;
     line-height: 110px;
     text-align: center;
     color: #FFFFFF;
@@ -28,20 +20,16 @@
 }
 
 .name > h2 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 3em;
     line-height: 56px;
     padding: 60px 0 20px 0;
     color: #121212;
 }
 
 .name > p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 28px;
     color: #121212;
 }
@@ -57,10 +45,8 @@
 }
 
 .technologies > p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 38px;
     color: #121212;
     padding: 0 0 20px ;
@@ -80,17 +66,15 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 38px;
     color: #FFFFFF;
 }
 
 .about-me {
     padding: 0 0 50px 0;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 38px;
     text-indent: 30px;
     color: #121212;
@@ -109,16 +93,14 @@
 input {
     margin-right: 25px;
     width: 329px;
-    height: 62px;
+    height: 4em;
     background: #FFFFFF;
     border-radius: 11px;
 }
 
 input::placeholder {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 38px;
     color: #121212;
     padding: 0 0 0 16px;
@@ -129,10 +111,8 @@ input::placeholder {
     height: 66px;
     background: #121212;
     border-radius: 11px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 38px;
     color: #FFFFFF;
     cursor: pointer;
