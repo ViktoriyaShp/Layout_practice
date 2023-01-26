@@ -12,6 +12,15 @@
     }
 
     .rubbery {
-        position: relative;
+        position: flex;
+        justify-content: center;
+        font-size: 80%;
+        width: 80%;
     }
+    
+    .fixed {
+        font-size: 80%;
+        width: 80%;
+    }
+
 }

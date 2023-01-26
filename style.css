@@ -19,7 +19,7 @@
     padding: 0 0 0 70px;
 }
 
-.name > h2 {
+.information > h2 {
     font-weight: 500;
     font-size: 3em;
     line-height: 56px;
@@ -27,7 +27,7 @@
     color: #121212;
 }
 
-.name > p {
+.information > p {
     font-weight: 500;
     font-size: 1.5em;
     line-height: 28px;
