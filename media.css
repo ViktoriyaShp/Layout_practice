@@ -33,21 +33,43 @@
     }
 }
 
-@media  (max-width: 998px) {
+@media (max-width: 998px) {
     .foto{
         display: none;
     }
 }
 
-@media  (max-width: 998px) {
+@media (max-width: 998px) {
+    .about-1 {
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media (max-width: 998px) {
     .footer {
         width: 100%;
         justify-content: center;
     }
 }
 
-@media screen and (max-width: 980) {
+@media (max-width: 1000) {
+
     .about-company__card {
         width: 700px;
-    }    
+    }
+
+    .about-company__card__description__text > p { 
+        font-size: 14px;
+    }  
+
+    .about-company__card__description > img {
+        width: 140px;
+    }
+    
+    .about-1 {
+        width: 400px;
+    }
 }
+
+
