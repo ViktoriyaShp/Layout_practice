@@ -1,10 +1,12 @@
 .container {
     display: flex;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
 body {
+    background: url(./images/fon.svg) no-repeat;
+    background-size: auto 100%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }

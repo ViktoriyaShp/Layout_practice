@@ -15,7 +15,6 @@
 }
 
 .rubbery {
-    background: url(./images/fon.svg) no-repeat;
     padding: 0 0 0 70px;
 }
 
@@ -61,14 +60,20 @@
 .technologies-block__button {
     width: 198px;
     height: 66px;
+    transition: all 400ms ease;
     background: #414141;
     border-radius: 45px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 2em;
     line-height: 38px;
     color: #FFFFFF;
+}
+
+.technologies-block__button:hover {
+    opacity: 0.3;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .about-me {
@@ -93,14 +98,15 @@
 input {
     margin-right: 25px;
     width: 329px;
-    height: 4em;
+    height: 2.5em;
     background: #FFFFFF;
     border-radius: 11px;
+    font-size: 24px;
 }
 
 input::placeholder {
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 38px;
     color: #121212;
     padding: 0 0 0 16px;

@@ -4,23 +4,42 @@
     }
 }
 
-@media (max-device-width: 540px) {
+@media (max-device-width: 550px) {
     .container {
         width: 100%;
         flex-wrap: wrap;
-        justify-content: center;
     }
 
     .rubbery {
         position: flex;
         justify-content: center;
         font-size: 80%;
-        width: 80%;
+        width: 100%;
     }
     
     .fixed {
         font-size: 80%;
-        width: 80%;
+        width: 100%;
+    }
+}
+
+@media (max-device-width: 550px) {
+
+    input {
+        margin-right: 25px;
+        width: 206px;
     }
 
+    .feedback__button {
+        width: 453px;
+    }
+
+    .networks {
+        padding: 24px 0 24px 0;
+    }
+
+    .about-me {
+        padding: 0px 0 25px 0;
+        line-height: 32px;
+    }
 }
