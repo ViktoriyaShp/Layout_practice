@@ -15,12 +15,17 @@
         justify-content: center;
         font-size: 80%;
         width: 100%;
+        transform: translateY(-1in);
     }
-    
+    .foto{
+        width: 80%;
+        padding: 0 0 0 70px;
+    }
+
     .fixed {
-        font-size: 80%;
-        width: 100%;
+        font-size: 70%;
     }
+
 }
 
 @media (max-device-width: 550px) {
@@ -42,4 +47,26 @@
         padding: 0px 0 25px 0;
         line-height: 32px;
     }
+
+    .fixed {
+        display:inline-block;   
+        position:relative;
+    }
+    
+    .fixed > div {
+        display: block;
+        margin: 0 38px 0 70px;
+        width: 435px;
+        height: 103px;
+        content: 'РАЗРАБОТЧИК';
+        font-weight: 400;
+        font-size: 3em;
+        line-height: 110px;
+        text-align: center;
+        color: #FFFFFF;
+        left: 0px;
+        top: 977px;
+        background: #121212;
+    }
 }
+

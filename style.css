@@ -1,6 +1,5 @@
-.fixed::after {
-    content: '';
-    position: absolute;
+.fixed > div {
+    transform: translateY(-1in);
     width: 638px;
     height: auto;
     content: 'РАЗРАБОТЧИК';
@@ -15,7 +14,7 @@
 }
 
 .rubbery {
-    padding: 0 0 0 70px;
+    padding: 0 50px 0 70px;
 }
 
 .information > h2 {
